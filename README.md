@@ -3,6 +3,8 @@ This repository contains code and resources for exploring in-conext learning usi
 The project focuses on how Transformers, like GPT-3, can learn to perform tasks from input-output examples provided in a prompt, without updating their internal parameters.
 Specifically, we explore how a simplified Transformer can be trained to perform in-context learning on well-defined function classes, such as linear functions.
 
+## Presentation Link
+
 ## Project Overview
 This project demonstrates how a Transformer model can be trained from scratch to:
 * Predict outputs for linear functions based on input-output examples provided in a prompt.
