@@ -1,7 +1,9 @@
 # In-Context Learning with Transformers
-This repository contains code and resources for exploring in-conext learning using Transformer models.
+This repository contains code and resources for exploring in-context learning using Transformer models.
 The project focuses on how Transformers, like GPT-3, can learn to perform tasks from input-output examples provided in a prompt, without updating their internal parameters.
 Specifically, we explore how a simplified Transformer can be trained to perform in-context learning on well-defined function classes, such as linear functions.
+
+![image](https://github.com/user-attachments/assets/f80839a6-2c6e-4fa0-b51e-ed574b1b37a8)
 
 ## Presentation Link
 
@@ -34,6 +36,8 @@ During inference, the model is tested on new tasks where it uses only the exampl
 The project includes two key visualizations:
 * Training Loss Plot: Track the model's learning progress by plotting the loss over epochs.
 * Predicted vs. True Output Plot: Compare the model's predictions against true outputs during inference to assess accuracy.
+
+![training loss over epochs](https://github.com/user-attachments/assets/15e0effb-2632-43cb-a6c5-39256aa7219d)
 
 ## Resource Links
 * Lecture by Gregory Valiant on the paper: https://www.youtube.com/watch?v=DiJsg93zQDc
